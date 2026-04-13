@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naifa Sadath K — Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#" class="nav-logo"><span>N</span>aifa.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta desktop-only">Contact Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu-close" id="mobileMenuClose">✕</button>
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <a href="mailto:naifasadath.2000@gmail.com" class="btn-primary" style="margin-top:1.5rem;">Say Hello →</a>
+  </div>
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <div class="hero-tag">✦ Open to new opportunities</div>
+      <h1>Hi, I'm <span class="accent">Naifa Sadath</span><br/><span class="typing-text"></span></h1>
+      <p class="hero-desc">
+        Full Stack Developer with expertise in React, Python, and more —
+        building scalable, production-ready web applications from responsive
+        frontends to cloud-deployed backends and REST APIs.
+      </p>
+      <div class="hero-btns">
+        <a href="cv/naifa-cv.pdf" download class="btn-primary">⬇ Download CV</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <div class="hero-img-bg"></div>
+        <img class="hero-img" src="images/naifa-hero.jpeg" alt="Naifa Sadath K" />
+        <div class="tech-icon ti-1"><i class="devicon-react-original colored"></i></div>
+        <div class="tech-icon ti-2"><i class="devicon-python-plain colored"></i></div>
+        <div class="tech-icon ti-3"><i class="devicon-django-plain colored"></i></div>
+        <div class="tech-icon ti-4"><i class="devicon-nextjs-plain colored"></i></div>
+        <div class="tech-icon ti-5"><i class="devicon-javascript-plain colored"></i></div>
+        <div class="tech-icon ti-6"><i class="devicon-html5-plain colored"></i></div>
+        <div class="tech-icon ti-7"><i class="devicon-flask-original colored"></i></div>
+        <div class="tech-icon ti-8"><i class="devicon-postgresql-plain colored"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="about-img-wrap">
+      <div class="about-img-frame">
+        <img src="images/naifa-about.jpeg" alt="Naifa Sadath" />
+      </div>
+      <div class="about-img-accent"></div>
+      <div class="about-exp-badge">
+        <div class="about-exp-num">MCA</div>
+        <div class="about-exp-lab">Graduate</div>
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="section-eyebrow">About Me</div>
+      <h2 class="section-title">Passionate about building things that matter</h2>
+      <p class="about-text">
+        I'm a Full Stack Developer and MCA graduate who completed an
+        intensive internship at Upcode Software Labs, covering the complete
+        spectrum of modern web development — from frontend design and REST API
+        development all the way to cloud deployment and production hosting.
+      </p>
+      <p class="about-text">
+        I design and build scalable, maintainable full-stack applications using
+        React, Next.js, Python, Django, Flask, and PostgreSQL. I've shipped real
+        projects — a luxury jewellery e-commerce platform (Aurette) and a
+        full-stack fashion store (Shop.co) & more projects 
+      </p>
+      <p class="about-text">
+        Currently based in Qatar and actively seeking Junior Software Engineer
+        roles where I can contribute to impactful projects, collaborate with
+        senior engineers, and grow into a well-rounded software professional.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="skills" id="skills">
+    <div class="skills-header">
+      <div class="section-eyebrow">Technical Skills</div>
+      <h2 class="section-title">Technologies I work with</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-cat">Frontend</div>
+        <div class="skill-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Bootstrap</span>
+          <span>JavaScript</span>
+          <span>TypeScript</span>
+          <span>React JS</span>
+          <span>Redux</span>
+          <span>Next.js</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">Backend</div>
+        <div class="skill-tags">
+          <span>Python</span>
+          <span>Django</span>
+          <span>Django REST</span>
+          <span>Flask</span>
+          <span>REST API</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">Database</div>
+        <div class="skill-tags">
+          <span>SQL</span>
+          <span>PostgreSQL</span>
+          <span>RDBMS</span>
+          <span>Neon Cloud DB</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">Cloud & Deployment</div>
+        <div class="skill-tags">
+          <span>Vercel</span>
+          <span>Render</span>
+          <span>Cloudinary</span>
+          <span>Cloud VM</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>GitLab</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">Tools & Platforms</div>
+        <div class="skill-tags">
+          <span>VS Code</span>
+          <span>Postman</span>
+          <span>pgAdmin</span>
+          <span>Material UI</span>
+          <span>Gunicorn</span>
+          <span>WhiteNoise</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">Soft Skills</div>
+        <div class="skill-tags">
+          <span>Problem Solving</span>
+          <span>Teamwork</span>
+          <span>Communication</span>
+          <span>Adaptability</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <div class="section-eyebrow">Projects</div>
+      <h2 class="section-title">Things I've built</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-num">PROJECT 01</div>
+        <div class="project-title">Aurette — Luxury Jewellery Store</div>
+        <p class="project-desc">
+          A full-featured luxury women's jewellery e-commerce platform with a
+          Gold & Black theme. Features product listings with category filtering,
+          cart, wishlist, live search with autocomplete, user authentication,
+          product reviews, discount & sold-out badges, Arabic/English
+          translation, and a fully responsive mobile layout with custom bottom
+          navigation. Deployed on Vercel with Neon PostgreSQL.
+        </p>
+        <div class="project-stack">
+          <span>Django</span>
+          <span>Bootstrap</span>
+          <span>PostgreSQL</span>
+          <span>Neon</span>
+          <span>Vercel</span>
+          <span>Cloudinary</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/NaifaMohannad/aurette" target="_blank" class="project-link">GitHub →</a>
+          <a href="https://aurette-mu.vercel.app/" target="_blank" class="project-link">Live Demo →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">PROJECT 02</div>
+        <div class="project-title">Shop.co — Full Stack Fashion Store</div>
+        <p class="project-desc">
+          A complete full-stack fashion e-commerce app with a React frontend
+          and Django REST API backend. Features product browsing, cart
+          management, user authentication, and image hosting via Cloudinary.
+          Frontend deployed on Vercel, backend API live on Render with
+          PostgreSQL.
+        </p>
+        <div class="project-stack">
+          <span>React</span>
+          <span>Django REST API</span>
+          <span>PostgreSQL</span>
+          <span>Cloudinary</span>
+          <span>Vercel</span>
+          <span>Render</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/NaifaMohannad/shopco-ecommerce" target="_blank" class="project-link">GitHub →</a>
+          <a href="https://shopco-ecommerce-dkkg.vercel.app/" target="_blank" class="project-link">Live Demo →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">PROJECT 03</div>
+        <div class="project-title">Next.js Admin Dashboard</div>
+        <p class="project-desc">
+          A full admin panel built with Next.js App Router and Material UI,
+          consuming a REST API. Features login, a products DataGrid with
+          server-side pagination, create/edit/delete flows, categories with
+          Dialog popups, a custom deep blue & teal dark theme, and a
+          mobile-responsive hamburger drawer.
+        </p>
+        <div class="project-stack">
+          <span>Next.js</span>
+          <span>Material UI</span>
+          <span>TypeScript</span>
+          <span>REST API</span>
+          <span>Vercel</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/NaifaMohannad/admin-app" target="_blank" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="more-projects">
+      <p>These are just a few highlights. More projects and experiments live on my GitHub.</p>
+      <a href="https://github.com/NaifaMohannad?tab=repositories" target="_blank" class="btn-outline">
+        View All Repositories →
+      </a>
+    </div>
+
+  </section>
+
+  <!-- EDUCATION & EXPERIENCE SECTION -->
+  <section class="experience" id="experience">
+    <div class="section-eyebrow">Education & Experience</div>
+    <h2 class="section-title">My background</h2>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot">💻</div>
+        <div class="tl-content">
+          <div class="tl-title">Upcode Software Labs — Full Stack Internship</div>
+          <div class="tl-sub"> Intensive Full Stack Program</div>
+          <div class="tl-desc">
+            Completed an intensive  internship at Upcode Software Labs
+            covering the full spectrum of modern web development across three tracks:
+          </div>
+          <div class="edu-tracks">
+            <div class="edu-track">
+              <div class="track-label">Frontend</div>
+              <div class="track-text">HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next.js, Redux, Material UI & more</div>
+            </div>
+            <div class="edu-track">
+              <div class="track-label">Backend</div>
+              <div class="track-text">Python, Django, Django REST Framework, Flask, REST API Design, PostgreSQL & more</div>
+            </div>
+            <div class="edu-track">
+              <div class="track-label">Cloud & Deployment</div>
+              <div class="track-text">Vercel, Render, Neon PostgreSQL, Cloudinary, Cloud VM, Git, GitHub, GitLab & more</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot">🎓</div>
+        <div class="tl-content">
+          <div class="tl-title">Master of Computer Applications (MCA)</div>
+          <div class="tl-sub">Postgraduate Degree · Computer Science</div>
+          <div class="tl-desc">
+            Advanced studies in software engineering, algorithms, database
+            systems, and modern application development. Built strong
+            foundations in full-stack development and system design.
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot">📚</div>
+        <div class="tl-content">
+          <div class="tl-title">Bachelor of Science — Computer Science (BSc CS)</div>
+          <div class="tl-sub">Undergraduate Degree · Computer Science</div>
+          <div class="tl-desc">
+            Core studies in programming, data structures, mathematics,
+            operating systems, and software development fundamentals that
+            built my technical foundation.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="section-eyebrow">Contact</div>
+      <h2 class="contact-title">Let's build something <span>great</span> together</h2>
+      <p class="contact-desc">
+        I'm actively looking for Junior Developer roles. If you have an
+        opportunity or just want to connect, I'd love to hear from you.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:naifasadath.2000@gmail.com" class="contact-link">✉ naifasadath.2000@gmail.com</a>
+        <a href="tel:+97430835252" class="contact-link">📞 +974 3083 5252</a>
+        <a href="https://github.com/NaifaMohannad" target="_blank" class="contact-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/naifa-sadath-06807922a" target="_blank" class="contact-link">LinkedIn</a>
+      </div>
+      <a href="mailto:naifasadath.2000@gmail.com" class="btn-primary">
+        Say Hello →
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>©️ <span id="footer-year"></span> Naifa Sadath K. All rights reserved.</span>
+    <span>Built with passion · Qatar 🇶🇦</span>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Dynamic footer year
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+    const mobileMenuClose = document.getElementById('mobileMenuClose');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    function openMenu() {
+      mobileMenu.classList.add('open');
+      mobileMenuOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeMenu() {
+      mobileMenu.classList.remove('open');
+      mobileMenuOverlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    hamburger.addEventListener('click', openMenu);
+    mobileMenuClose.addEventListener('click', closeMenu);
+    mobileMenuOverlay.addEventListener('click', closeMenu);
+    mobileLinks.forEach(link => link.addEventListener('click', closeMenu));
+  </script>
+</body>
+</html>
